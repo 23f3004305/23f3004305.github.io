@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>23f3004305 | Data Science Portfolio</title>
+  <meta name="description" content="A learning portfolio of practical data cleaning, analysis, and API projects.">
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #182c32; background: #f7f6f0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main, header, footer { max-width: 1040px; margin: auto; padding: 28px; }
+    header { display: flex; justify-content: space-between; gap: 20px; border-bottom: 1px solid #d4dcd5; }
+    a { color: #14624f; text-underline-offset: 4px; }
+    .intro { padding: 66px 0 48px; max-width: 780px; }
+    .eyebrow { font-size: .8rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #14624f; }
+    h1 { font-size: clamp(2.5rem, 7vw, 4.8rem); line-height: 1.08; letter-spacing: -.045em; margin: 20px 0; }
+    p { line-height: 1.7; }
+    .lead { font-size: 1.2rem; color: #4b6166; max-width: 660px; }
+    h2 { font-size: 1.6rem; margin-top: 20px; }
+    .projects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+    article { background: white; border: 1px solid #d4dcd5; border-radius: 16px; padding: 28px; }
+    article h3 { font-size: 1.25rem; margin: 12px 0; }
+    article p { color: #4b6166; margin-bottom: 0; }
+    .number { color: #14624f; font-size: .8rem; font-weight: 700; }
+    .contact { margin-top: 44px; padding: 28px; background: #e5eee6; border-radius: 16px; overflow-wrap: anywhere; }
+    footer { color: #4b6166; font-size: .9rem; padding-bottom: 40px; }
+    a:focus-visible { outline: 3px solid #14624f; outline-offset: 5px; }
+    @media (max-width: 600px) { .projects { grid-template-columns: 1fr; } header, main, footer { padding: 22px; } .intro { padding-top: 40px; } }
+  </style>
+</head>
+<body>
+  <header><strong>23f3004305 / Portfolio</strong><a href="https://github.com/23f3004305">GitHub profile</a></header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">Tools in Data Science · Learning portfolio</p>
+      <h1>From raw data<br>to useful answers.</h1>
+      <p class="lead">I’m learning to clean data, automate file operations, build APIs, and turn datasets into clear results. Here is a selection of my coursework.</p>
+    </section>
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Selected work</h2>
+      <div class="projects">
+        <article><span class="number">01 / DATA CLEANING</span><h3>Repairing a corrupted dataset</h3><p>Fixed seven JSON syntax errors while preserving all 300 records, then validated the repaired data with Python.</p></article>
+        <article><span class="number">02 / API DEVELOPMENT</span><h3>Configuration precedence API</h3><p>Built a FastAPI endpoint that merges configuration layers, applies query overrides, converts value types, and masks secrets.</p></article>
+        <article><span class="number">03 / FILE AUTOMATION</span><h3>Organizing a file archive</h3><p>Reorganized 30 text files by category, preserved spaces and Unicode characters, and verified the resulting paths with SHA256.</p></article>
+        <article><span class="number">04 / DATA ANALYSIS</span><h3>Regional sales analysis</h3><p>Filtered sales transactions by city and month, then calculated revenue from quantity and unit price using exact decimal arithmetic.</p></article>
+      </div>
+    </section>
+    <section class="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in touch</h2>
+      <p><!--email_off-->23f3004305@ds.study.iitm.ac.in<!--/email_off--></p>
+    </section>
+  </main>
+  <footer>Built as part of my Tools in Data Science coursework.</footer>
+</body>
+</html>
